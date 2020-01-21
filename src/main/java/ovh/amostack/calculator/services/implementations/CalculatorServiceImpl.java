@@ -11,7 +11,6 @@ public class CalculatorServiceImpl implements CalculatorService {
 
 	@Override
 	public ExpressionSolution solve(Expression expression) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
