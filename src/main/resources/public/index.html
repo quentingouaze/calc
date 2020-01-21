@@ -1,0 +1,28 @@
+<html>
+<body>
+<form action="/calc" method="POST" id="formCalculate">
+<label for="expression">Input</label>
+<input type="text" name="expression" id="expression">
+<button type="button" id="submitButton" onclick="sendJSON()">Calculate</button>
+</form>
+<div id="result"></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+function sendJSON(){
+    let expression=document.querySelector('#expression');
+    let xhr=new XMLHttpRequest();
+    let url="/calc";
+    xhr.open('POST',url,true);
+    xhr.setRequestHeader("Content-Type","application/json");
+    xhr.onreadystatechange=function(e){
+        if(xhr.readyState===4 && xhr.status===200){
+           console.log(this.responseText);
+        }
+    };
+    var data=JSON.stringify({"expression":expression.value});
+    xhr.send(data);
+    console.log(data);
+}
+</script>
+</html>
