@@ -38,33 +38,29 @@ Début : 21/01/2020 – 11h 		Fin : 21/01/2020 – 16h30
 
 |**To Do** 						|  **In Progress**	| **Done**	|    **Tested**	| **Validate**	|
 |  --------------				|  -------------	|-----------|---------------|---------------|
-|US - 1 : Saisie par formulaire |					|			|				|				|
-|US - 3 : Opérateurs de base 	|					|			|				|				|
-|US – 5 : Message d’erreur 		|					|			|				|				|
+|   |					|	US - 1 : Saisie par formulaire		|				|				|
+| 	|	US - 3 : Opérateurs de base				|			|				|				|
+| 	|US – 5 : Message d’erreur				|			|				|				|
 |US - 4 : Opérateurs unaires 	|					|			|				|				|
 |US - 6 : Polynômes 1er degré 	|					|			|				|				|
 |US - 2 : Détail des calculs 	|					|			|				|				|
 
-**Sprint 2 :**
-Début : XX/XX/2020 – 08h30 		Fin : XX/XX/2020 – 16h30
-
--> US - 7 : Polynômes du 2nd degré
--> US - 8 : Polynômes du 3ème degré
--> US - 9 : Polynômes du 4ème degré
--> US - 10 : Enregistrer fonctions 
--> US – 11 : Clavier virtuel
 
 ### 1er Répartition des tâches : 
 **Quentin :**
 - [X]Crée le Repository sur GitHub
-- [] Formation Maven
+- [X] Formation Maven
+- [X] US-1
 
 **Hélène :** 
-- [] Documentation du projet
+- [X] Documentation du projet
+- [] US-5
 
 **Antoine :**
-- [] prépare l’interface 
+- [X] Prépare la structure (service interface, models, controllers)
+- [X] Tests unitaires
 
 **Anthony :**
-- [] implémente l’interface 
+- [X] Implémente l’interface
+- [] US-3
 
